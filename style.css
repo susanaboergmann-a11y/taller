@@ -1,0 +1,34 @@
+div{ 
+background-color:pink;
+  width: 150px;
+  height: 150px;
+  border-radius:150px;
+  position:relative;
+  top:200px;
+  left:200px;
+  animation-name:circulo;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  
+  
+}
+
+@keyframes circulo {
+  0% {backround-color:pink; left:0px} 
+  100%{background-color:blue}
+}
+div class="circulo1"{
+  background-color:red;
+  width: 200px;
+  height: 200px;
+  border-radius:200px;
+  position:relative;
+  top:200px;
+  left:200px;
+  animation-name:circulo1;
+  animation-duration:5s;
+  animation-iteration-count:infinite;}
+@keyframes circulo1 {
+  0% {backround-color:pink; left:0px} 
+  100%{background-color:blue}
+}
